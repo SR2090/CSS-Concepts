@@ -3,4 +3,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+}
 
+.center{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+}
+
+div.card{
+    background: rgb(216, 134, 202);
+    box-shadow: 2px 2px 20px 3px #FFB6C1;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 20px;
+}
+img.image {
+    display: inline;
+    height:50px;
+    width:50px;
+    border-radius:100%;
+}
+h2.heading{
+    display: inline;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+p.content {
+    padding-top: 10px;
+}
