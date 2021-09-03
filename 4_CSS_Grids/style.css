@@ -4,39 +4,58 @@ body{
 
 .container {
     background: rgb(216, 180, 180);
+    
     font-weight: bold;
     display: grid;
     /* for autoplacement */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
+    
 }
 
 #item1{
     background-color: rgb(182, 97, 97);
-    
+    border-radius: 10px;
+    text-align: center;
 }
 #item2{
     background-color: blue;
+    border-radius: 10px;
+    text-align: center;
 }
 #item3{
     background-color: green;
+    border-radius: 10px;
+    text-align: center;
 }
 #item4{
     background-color: yellow;
+    border-radius: 10px;
+    text-align: center;
 }
 #item5{
     background-color: pink;
+    border-radius: 10px;
+    text-align: center;
 }
 #item6{
     background-color: violet;
+    border-radius: 10px;
+    text-align: center;
 }
 #item7{
     background-color: gray;
+    border-radius: 10px;
+    text-align: center;
 }
 #item8{
     background-color: orange;
+    border-radius: 10px;
+    text-align: center;
 }
 #item9{
     background-color: magenta;
+    border-radius: 10px;
+    text-align: center;
 }
