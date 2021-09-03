@@ -3,12 +3,18 @@ body{
 }
 
 .container {
-    background-color: rgb(211,211,211);
+    background: rgb(216, 180, 180);
     font-weight: bold;
+    display: grid;
+    /* for autoplacement */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
 }
 
 #item1{
-    background-color: red;
+    background-color: rgb(182, 97, 97);
+    
 }
 #item2{
     background-color: blue;
